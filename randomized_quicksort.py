@@ -37,7 +37,7 @@ def quick_sort(arr):
     return arr
 
 # Example usage:
-arr = [-1000, 700, -90000, 0, 650, 100000, 0.00005]
+arr = [0, 10, 25, 100, 999, 10000, 2000000]
 print("Original Array:", arr)
 sorted_arr = quick_sort(arr)
 print("Sorted Array:", sorted_arr)
